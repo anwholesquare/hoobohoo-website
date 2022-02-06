@@ -1,0 +1,55 @@
+h1, h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .row.equal {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+      
+
+.equal > div[class*='col-'] {  
+    display: flex;
+    flex-direction: column;
+}
+
+
+.darkmode-toggle {
+  z-index: 500;
+}
+
+
+.ft-item{
+    height: 100%;
+}
+
+
+.videobox1col{
+    height: 100%;
+    background-color: #000000;
+    background-image: linear-gradient(111deg, #000000 0%, #424446 74%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;      
+}
+
+.t-image{
+    width: auto !important;
+    height: 100%  !important;
+}
+
+.tagger{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: black;
+    letter-spacing: 3px;
+    padding: 0px;
+}
+
+
+  
+    
